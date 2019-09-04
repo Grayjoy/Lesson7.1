@@ -90,10 +90,10 @@ public class Task1 {
         int remp;
         int kemp; // вводим переменную для третьего кубика
         for (int i = 0; i < TOTAL_COUNT; i++) {
-            temp = rollDice();
-            remp = rollDice();
-            kemp = rollDice();
-            if (temp == remp && remp == kemp) {
+            temp = rollDice1();
+            remp = rollDice1();
+            kemp = rollDice1();
+            if (temp == remp && temp == kemp) {
                 count++;
             }
 
